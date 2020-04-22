@@ -1,3 +1,3 @@
-# [Portfolio-Home-Page](https://philisweatly.github.io)
+# [Phil Smith Portfolio](https://philisweatly.github.io)
 Landing Page for Portfolio
 
