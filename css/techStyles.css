@@ -117,6 +117,15 @@ h3 {
   text-align: center;
 }
 
+.home_icons {
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  background: rgb(207, 206, 206);
+  padding-top: 5px;
+  border-radius: 10px;
+}
+
 .home_service_block {
   display: flex;
   flex-direction: row;
@@ -126,9 +135,11 @@ h3 {
 
 .home_service_sections {
   height: fit-content;
-  background: #36a69363;
-  border-radius: 3px;
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+  flex-basis: 25%;
+  text-align: center;
+  /* background: #36a69363; */
+  /* border-radius: 3px; */
+  /* box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4); */
   transition: all 0.3s;
 }
 
