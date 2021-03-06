@@ -14,6 +14,7 @@ html {
 
 body {
   font-family: "Nunito", sans-serif;
+  background-color: white;
 }
 
 a {
@@ -40,6 +41,7 @@ button {
   position: fixed;
   width: 100%;
   height: 4.3rem;
+  z-index: 100;
 }
 
 .header__icon {
@@ -73,8 +75,22 @@ button {
   align-items: center;
   justify-content: space-around;
   height: 100vh;
-  background: url(../pics/techMain.jpg);
-  background-position: 53% 48%;
+  background-image: url(../pics/circuts.jpg);
+  background-size: cover;
+  background-position: 83%;
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(180deg, #00000038 47%, #ffffff44 100%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
 }
 
 .splash_text {
@@ -109,21 +125,57 @@ button {
 
 /* About Me */
 .about__me {
-  background-color: rgba(235, 235, 235, 0.4);
-  height: 60vh;
+  background-color: #ffffff;
+  /* height: 60vh; */
 }
 
-h3 {
+h2 {
   text-align: center;
+  font-weight: 300;
 }
 
-.home_icons {
-  font-size: 2rem;
-  width: 3rem;
-  height: 3rem;
-  background: rgb(207, 206, 206);
-  padding-top: 5px;
-  border-radius: 10px;
+.home_header {
+  margin: 2rem 0;
+}
+
+.section_header1 {
+  font-size: 3rem;
+  margin: 5rem 0rem;
+}
+
+.icon {
+  height: 7rem;
+}
+
+.icon1 {
+  filter: invert(45%) sepia(50%) saturate(6362%) hue-rotate(191deg)
+    brightness(104%) contrast(106%);
+}
+.icon2 {
+  filter: invert(19%) sepia(99%) saturate(6215%) hue-rotate(268deg)
+    brightness(89%) contrast(134%);
+}
+.icon3 {
+  filter: invert(16%) sepia(95%) saturate(4208%) hue-rotate(316deg)
+    brightness(96%) contrast(114%);
+}
+.icon4 {
+  filter: invert(12%) sepia(98%) saturate(4961%) hue-rotate(351deg)
+    brightness(100%) contrast(115%);
+}
+.icon5 {
+  filter: invert(9%) sepia(100%) saturate(7419%) hue-rotate(244deg)
+    brightness(96%) contrast(137%);
+}
+
+.icon6 {
+  filter: invert(47%) sepia(65%) saturate(2390%) hue-rotate(0deg)
+    brightness(102%) contrast(104%);
+}
+
+.icon_info {
+  font-size: 1.2rem;
+  padding-top: 2rem;
 }
 
 .home_service_block {
@@ -131,24 +183,25 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 0 3px;
 }
 
 .home_service_sections {
-  height: fit-content;
-  flex-basis: 25%;
   text-align: center;
-  /* background: #36a69363; */
-  /* border-radius: 3px; */
-  /* box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4); */
-  transition: all 0.3s;
+  flex-basis: 45%;
+  padding: 6px 0;
+  margin-bottom: 4rem;
 }
 
-.home_service_sections:not(:last-child) {
-  margin-bottom: 4px;
+/* Restaurant Mangement */
+.section_header2 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
 }
 
-.home_service_sections:hover {
-  transform: translateY(-3px);
+.restMgr_icon {
+  width: 2rem;
+  height: 2rem;
 }
 
 /* JS Classes */
