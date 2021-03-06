@@ -97,7 +97,7 @@ button {
   font-size: 3rem;
   text-align: center;
   font-weight: 300;
-  margin: 0 3px;
+  margin: 0 1.3rem;
   color: azure;
 }
 
@@ -111,9 +111,9 @@ button {
 }
 
 .splash_button {
-  width: 33%;
+  width: 50%;
   background: #3257a8ec;
-  padding: 3px 0;
+  padding: 1rem 0;
   border-radius: 3px;
   color: rgb(223, 223, 223);
   font-weight: 200;
@@ -123,10 +123,13 @@ button {
   margin-top: 1.2rem;
 }
 
+.splash_button:hover {
+  cursor: pointer;
+}
+
 /* About Me */
 .about__me {
   background-color: #ffffff;
-  /* height: 60vh; */
 }
 
 h2 {
@@ -193,6 +196,34 @@ h2 {
   margin-bottom: 4rem;
 }
 
+/* Info */
+.info {
+  background-color: #f4f7f9;
+}
+
+.info_container {
+  text-align: center;
+  margin: 0 4rem;
+  border-top: 3px solid grey;
+  border-bottom: 3px solid grey;
+  padding-top: 1.5rem;
+  padding-bottom: 1.8rem;
+}
+
+.info_title {
+  font-weight: 200;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.info_sub {
+  font-size: 1.3rem;
+}
+
+.sub_sub {
+  font-size: 1rem;
+}
+
 /* Restaurant Mangement */
 .section_header2 {
   margin-bottom: 2rem;
@@ -231,3 +262,5 @@ h2 {
     height: 70%;
   }
 }
+
+/* JS */
