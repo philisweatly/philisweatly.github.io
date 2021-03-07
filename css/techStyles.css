@@ -116,7 +116,7 @@ button {
   padding: 1rem 0;
   border-radius: 3px;
   color: rgb(223, 223, 223);
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .splash_button:last-of-type {
@@ -199,12 +199,12 @@ h2 {
 /* Info */
 .info {
   background-color: #f4f7f9;
+  margin-top: 4rem;
 }
 
 .info_container {
   text-align: center;
   margin: 0 4rem;
-  border-top: 3px solid grey;
   border-bottom: 3px solid grey;
   padding-top: 1.5rem;
   padding-bottom: 1.8rem;
@@ -233,6 +233,11 @@ h2 {
 .restMgr_icon {
   width: 2rem;
   height: 2rem;
+}
+
+/* Vector */
+.vector_lead {
+  width: 100vw;
 }
 
 /* JS Classes */
