@@ -301,6 +301,10 @@ h2 {
   transition: all 1s;
 }
 
+.links_list {
+  display: none;
+}
+
 /* Media Queries */
 @media screen and (min-width: 589px) {
   .header_links {

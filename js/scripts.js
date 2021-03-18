@@ -14,3 +14,12 @@
 
     console.log(scrollpos)
   })
+
+var hamburger = document.getElementById("hamburger")
+var linksList = document.getElementsByClassName("links_list")
+
+myFunction = function() {
+  alert("HELP")
+};
+
+hamburger.addEventListener("click", myFunction )
