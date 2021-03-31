@@ -16,10 +16,11 @@
   })
 
 var hamburger = document.getElementById("hamburger")
-var linksList = document.getElementsByClassName("links_list")
+// var linksList = document.getElementsByClassName("links_list")
 
 myFunction = function() {
-  alert("HELP")
+  var linksList = document.getElementById("linksList")
+  linksList.classList.toggle("show")
 };
 
 hamburger.addEventListener("click", myFunction )

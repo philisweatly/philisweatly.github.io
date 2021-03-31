@@ -64,10 +64,13 @@ button {
   padding: 0 3px;
 }
 
-/* Main Landing Page */
-.landing_page {
-  padding-top: 43px;
+/* Links List */
+.links_list {
+  display: none;
+  transition-duration: 5s;
 }
+
+/* Main Landing Page */
 
 .jumbotron {
   display: flex;
@@ -301,8 +304,19 @@ h2 {
   transition: all 1s;
 }
 
-.links_list {
-  display: none;
+.show {
+  /* display: block; */
+  width: 100%;
+  height: 20rem;
+  padding: 25px;
+  background-color: #162028;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Media Queries */
